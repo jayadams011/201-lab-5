@@ -33,15 +33,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // TODO: Write your code here
 function multiply(a,b){ //eslint-disable-line
-  var theProduct = multiply(a,b);
-  var messageOne = 'The product of' + '' + a + '' + 'and' + b + '' + theProduct + '.';
-  //return [theProduct, messageOne];
-  console.log(theProduct, messageOne);
+  var theProduct = (a * b);
+  var messageOne = 'The product of ' + a + ' and ' + b + ' is ' + theProduct + '.';
+  return[theProduct, messageOne];
 }
 multiply(5,9);
 
 // TODO: Here is the test for multiply(); uncomment it to run it
-//testMultiply(5,9);
+testMultiply(5,9);
 
 
 
