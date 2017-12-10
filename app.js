@@ -11,8 +11,8 @@ Test this function by hand in the console to get it working, and when you think 
 For TODO item, be sure to change it to say DONE when you have successfully completed the task*/
 
 // TODO: Write your code here
-// TODO: Write your code here
-function sum(a,b){
+
+function sum(a,b){//eslint-disable-line
   var theSum = a + b;
   var message = 'The sum of ' + a + ' and ' + b + ' is ' + theSum + '.';
   return [theSum, message];
@@ -33,11 +33,17 @@ Test this function by hand in the console to get it working, and when you think 
 
 // TODO: Write your code here
 function multiply(a,b){ //eslint-disable-line
-
+  var theProduct = (a * b);
+  var messageOne = 'The product of ' + a + ' and ' + b + ' is ' + theProduct + '.';
+  return[theProduct, messageOne];
 }
+multiply(5,9);
 
 // TODO: Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
+
+
+
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
