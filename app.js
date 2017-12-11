@@ -100,6 +100,8 @@ function sumArray(testArray){ //eslint-disable-line
   //console.log(messageFour);
   // testing
 }
+
+//testing new git set up
 sumArray(testArray);
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
