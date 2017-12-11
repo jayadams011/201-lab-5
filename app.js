@@ -100,7 +100,6 @@ function sumArray(testArray){ //eslint-disable-line
   //console.log(messageFour);
   // testing
 }
-
 sumArray(testArray);
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
@@ -119,9 +118,17 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(testArray){ //eslint-disable-line
 
+function multiplyArray(testArray){ //eslint-disable-line
+  var prodArrayOne = multiply(testArray[0],testArray[1]);
+  var prodArrayTwo = multiply(prodArrayOne[0],testArray[2]);
+  var messageFive = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + prodArrayTwo[0] + '.';
+  return [prodArrayTwo,messageFive];
+  //console.log(messageFive)
+
+  //'The numbers 2,3,4 have a product of 24.'//
 }
+multiplyArray(testArray);
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(2,3,4);
