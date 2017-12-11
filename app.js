@@ -98,6 +98,7 @@ function sumArray(testArray){ //eslint-disable-line
   //return [messageFour];
   //console.log(sumArraytwo,messageFour);
   //console.log(messageFour);
+  // testing
 }
 
 sumArray(testArray);
